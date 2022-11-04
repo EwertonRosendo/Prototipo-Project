@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <!--------- <title>Responsive Navigation Menu</title>------>
+   <title>Meu Perfil</title>
+   <link rel="shortcut icon" href="static/img/image 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="https://flowbite.com/" class="flex items-center">
+          <img src="static/img/image 2.png" class="mr-3 h-6 sm:h-9" alt="Desabamenos">
+          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white" style="font-family: rafaela;">DesabaMenos</span>
+      </a>
+      <div class="flex md:order-2">
+          <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+      </div>
+      <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="home.html" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white">Meu perfil</a>
+          </li>
+          <li>
+            <a href="maps.html" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Maps</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <script>
+      let el = document. getElementById('profile');
+      el. classList. remove('#');
+      el. classList. add('active');
+    </script>
+    <div class="content">
+
+      <div class="background-perfil" >
+        <img src="static/img/avatar.png" alt="">
+      </div>
+
+      <div class="informacoes-do-perfil">
+        <p>Informações Basicas</p>
+        
+        <table>
+          <thead>
+            <td><p>Nome: </p></td>
+            <td><p>Data de Nascimento: </p></td>
+            <td><p>CPF</p></td>
+            <td><p>RG</p></td>
+            <td><p>telefone</p></td>
+          </thead>
+          <tr>
+            <td><p>Ewerton Rosendo da Silva</p></td>
+            <td><p>03/10/2003</p></td>
+            <td><p>783.432.123-23</p></td>
+            <td><p>3454832</p></td>
+            <td><p>(81) 9 4362 7325</p></td>
+          </tr>
+        </table>
+
+        <table>
+          <thead>
+            <td><p>Genero: </p></td>
+            <td><p>País de origem: </p></td>
+            <td><p>Email</p></td>
+          </thead>
+          <tr>
+            <td><p>Masculino</p></td>
+            <td><p>Brazil</p></td>
+            <td><p>tres.patetas@gmail.com</p></td>
+          </tr>
+        </table>
+        <br><br>
+        <p>Endereço</p>
+
+        <table>
+          <thead>
+            <td><p>Cep: </p></td>
+            <td><p>Bairro: </p></td>
+            <td><p>Complemento:</p></td>
+          </thead>
+          <tr>
+            <td><p>34635-632</p></td>
+            <td><p>Boa Vista</p></td>
+            <td><p>Casa</p></td>
+          </tr>
+        </table>
+
+        <table>
+          <thead>
+            <td><p>Endereço: </p></td>
+            <td><p>Estado: </p></td>
+            <td><p>Cidade:</p></td>
+          </thead>
+          <tr>
+            <td><p>Rua das oliveiras</p></td>
+            <td><p>PE</p></td>
+            <td><p>Recife</p></td>
+          </tr>
+        </table>
+        
+      </div>
+    </div>
+
+  </body>
+</html>
