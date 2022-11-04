@@ -181,12 +181,6 @@ input[type="checkbox"]{
     margin-bottom: 20px;
   }
 }
-
-@media only screen and (max-width: 370px) {
-  body{
-    background-color:white ;
-  }
-}
 body{
   background-color:rgb(211, 211, 211); ;
 }
@@ -198,4 +192,9 @@ body{
 @font-face {
   font-family: [rafaela];
   src: url([static/fonts/rafaela.ttf]);
+}
+@media only screen and (max-width: 370px) {
+  body{
+    background-color:white ;
+  }
 }
