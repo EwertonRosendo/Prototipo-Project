@@ -16,24 +16,27 @@
       <button id="btnSignup"><b>Sign up</b></button>
     </div>
 
-    <form action="{% url 'login' %}" id="signin"  method="POST" name="login">
+    <form id="signin"  method="POST" name="login">
       
-      <input type="text" placeholder="Email" name="email_login" required />
+      <input type="text" placeholder="Email" name="email_login"  />
       <i class="fas fa-envelope iEmail"></i>
-      <input type="password" placeholder="Password" name="senha_login" required />
+      <input type="password" placeholder="Password" name="senha_login"  />
       <i class="fas fa-lock iPassword"></i>
       <div class="divCheck">
         <input type="checkbox" />
         <span>Remember Password</span>
       </div>
-      <button type="submit"><b>Sign in</b></button>
+    <a href="index.html">
+      <button type=""></button>
+      <b>Sign up</b>
+    </a>
     </form>
 
-    <form action="{% url 'cadastro' %}" id="signup" method="POST" name="cadastro">
+    <form id="signup" method="POST" name="cadastro">
       
-      <input type="text" placeholder="Email" name="email_cadastro" required />
+      <input type="text" placeholder="Email" name="email_cadastro"  />
       <i class="fas fa-envelope iEmail"></i>
-      <input type="password" placeholder="Password" name="password_cadastro1" required />
+      <input type="password" placeholder="Password" name="password_cadastro1"  />
       <i class="fas fa-lock iPassword"></i>
       <input type="password" placeholder="Password" name="passoword_cadastro2" required />
       <i class="fas fa-lock iPassword2"></i>
@@ -42,7 +45,10 @@
         <span>Terms</span>
         
       </div>
-      <button type="submit"><b>Sign up</b></button>
+    <a href="index.html">
+      <button type=""></button>
+      <b>Sign up</b>
+    </a>
     </form>
 
     
